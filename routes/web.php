@@ -18,22 +18,33 @@ use App\Http\Controllers\AuthController;
 
 //Route untuk tugas intro laravel
 //route untuk HomeController
-Route::get('/', [HomeController::class, 'index']);
+// Route::get('/', [HomeController::class, 'index']);
 
-//route untuk AuthController
-Route::get('/register', [AuthController::class, 'index']);
-Route::post('/welcome', [AuthController::class, 'welcome']);
+// //route untuk AuthController
+// Route::get('/register', [AuthController::class, 'index']);
+// Route::post('/welcome', [AuthController::class, 'welcome']);
+
+//Route untuk belajar
+// Route::get('/admin', function() {
+//     return view('layout.master');
+// });
 
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
-// Route::get('/hello-laravel', [HelloLaravelController::class, 'index']);
+Route::get('/', [HelloLaravelController::class, 'index']);
 
-// Route::get('/biodata', [HelloLaravelController::class, 'biodata']);
+//Route::get('/biodata', [HelloLaravelController::class, 'biodata']);
 
-// //post route
-// Route::post('kirim', [HelloLaravelController::class, 'kirim']);
+Route::get('table', [HelloLaravelController::class, 'table']);
+
+Route::get('data-tables', [HelloLaravelController::class, 'dataTables']);
+
+//post route
+//Route::post('kirim', [HelloLaravelController::class, 'kirim']);
+
+
 
 // Route::get('hello-laravel', function() {
 //     echo "Ini adalah halaman baru <br/>";

@@ -33,4 +33,12 @@ class HelloLaravelController extends Controller
         //return view
         return view('HelloLaravel.profil', ['namaLengkap' => $namaLengkap, 'alamat' => $alamat, 'namaHost' => $namaHost, 'httpHost' => $httpHost, 'skemaHttpHost' => $skemaHttpHost, 'ipAddress' => $ipAddress, 'jenisKelamin' => $jenisKelamin]);
     }
+
+    public function table() {
+        return view('HelloLaravel.table');
+    }
+
+    public function dataTables() {
+        return view('HelloLaravel.DataTable');
+    }
 }
