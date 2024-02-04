@@ -27,7 +27,7 @@
         <!-- Add icons to the links using the .nav-icon class
              with font-awesome or any other icon font library -->
         <li class="nav-item">
-          <a href="/" class="nav-link">
+          <a href="/kategori" class="nav-link">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
               Dashboard
@@ -38,21 +38,21 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Daftar Table
+                Daftar Aksi
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/table" class="nav-link">
+                <a href="/kategori/tambah" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Table</p>
+                  <p>Kategori</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/data-tables" class="nav-link">
+                <a href="/cast/tambah" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data tables</p>
+                  <p>Cast</p>
                 </a>
               </li>
             </ul>
